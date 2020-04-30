@@ -1,0 +1,206 @@
+.card-img-top {
+  width: 100%;
+  height: 140px;
+}
+.cardCart {
+  width: -150px;
+  height: 870px;
+  background-color: #f1f1f1;
+  position: relative;
+  /* margin-left: 80px; */
+  border-radius: 2%;
+  padding-left: inherit;
+  padding-left: 90px;
+  padding-right: 20px;
+}
+.card {
+  border-right: solid;
+  border-color: #b8b0c7;
+}
+.row {
+  margin-left: 10px;
+}
+.chartHistory {
+  height: 70%;
+}
+.product {
+  background-color: #eff2f5;
+}
+.banner {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  color: aqua;
+}
+.pagination {
+  margin-top: -100px;
+  margin-left: 300px;
+}
+.searchBox {
+  position: absolute;
+  top: -400%;
+  left: 80%;
+  transform: translate(-50%, 50%);
+  background: #afc7e7;
+  height: 60px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.searchBox:hover > .searchInput {
+  width: 250px;
+  padding: 0 6px;
+}
+.nav-link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.nav-link:hover {
+  background-color: #ffffff;
+  color: #eea200;
+  padding: 5px 5px;
+  border-radius: 0.5rem;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color: #bccfeb;
+}
+
+.searchButton {
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #5689cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.buttonCart {
+  margin-left: 60px;
+}
+.navbar-expand-lg {
+  background-color: #80b2e7;
+}
+.navbar {
+}
+.navbar-brand {
+  border-radius: 10px;
+}
+.cartCard {
+  margin-bottom: 6px;
+  margin-left: 90px;
+}
+.btnCart {
+  margin-left: '30px';
+}
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(29, 28, 28);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 0px;
+}
+.imageCart {
+  width: 90px;
+  height: 80px;
+}
+.perPage {
+  margin-top: 0px;
+}
+.mt-1 {
+  border-radius: 10px;
+}
+@media screen and (max-width: 620px) {
+  .searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+  }
+}
+.box {
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #98c5f8;
+  text-align: center;
+  border-radius: 5%;
+}
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type='text'],
+.box input[type='password'] {
+  border: 0;
+  background: #a2a4a5;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type='text']:focus,
+.box input[type='password']:focus {
+  width: 350px;
+  border-color: #2ecc71;
+}
+.box input[type='text'],
+.box input[type='email'] {
+  border: 0;
+  background: #a2a4a5;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type='text']:focus,
+.box input[type='Email']:focus {
+  width: 350px;
+  border-color: #2ecc71;
+}
+
+.box button[type='submit'] {
+  border: 0;
+  background: #215f88;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box button[type='submit']:hover {
+  background: #2ecc71;
+}
